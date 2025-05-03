@@ -36,48 +36,4 @@ GET /api/restaurants?page=2&limit=5
       "rating": 4.5
     },
   ]
-}```
-
-📂 Folder Structure:
-
-├── dist
-│   ├── app.js
-│   ├── config
-│   │   └── db.js
-│   ├── controller
-│   │   ├── index.js
-│   │   └── restaurant.controller.js
-│   ├── index.js
-│   ├── model
-│   │   └── Restaurant.model.js
-│   ├── routes
-│   │   ├── index.js
-│   │   └── restaurants.routes.js
-│   ├── services
-│   │   ├── index.js
-│   │   └── restaurant.service.js
-│   └── types
-│       └── restauranst.types.js
-├── package.json
-├── package-lock.json
-├── render.yaml
-├── restaurants.json
-├── src
-│   ├── app.ts
-│   ├── config
-│   │   └── db.ts
-│   ├── controller
-│   │   ├── index.ts
-│   │   └── restaurant.controller.ts
-│   ├── index.ts
-│   ├── model
-│   │   └── Restaurant.model.ts
-│   ├── routes
-│   │   ├── index.ts
-│   │   └── restaurants.routes.ts
-│   ├── services
-│   │   ├── index.ts
-│   │   └── restaurant.service.ts
-│   └── types
-│       └── restauranst.types.ts
-└── tsconfig.json
+}
