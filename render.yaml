@@ -10,4 +10,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: PORT
-        value: 10000 # or whatever your app listens on
+        value: 10000  # or whatever port your app listens on
+      - key: MONGODB_URI
+        value: mongodb+srv://shanwaz:1234@restaurant.aoztg7s.mongodb.net/?retryWrites=true&w=majority appName=restaurant
