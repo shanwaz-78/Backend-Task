@@ -35,13 +35,11 @@ GET /api/restaurants?page=2&limit=5
       "location": "New York",
       "rating": 4.5
     },
-    ...
   ]
 }
 
-📂 **Folder Structure:**
+📂 Folder Structure:
 
-```pgsql
 ├── dist
 │   ├── app.js
 │   ├── config
@@ -83,4 +81,3 @@ GET /api/restaurants?page=2&limit=5
 │   └── types
 │       └── restauranst.types.ts
 └── tsconfig.json
-```
