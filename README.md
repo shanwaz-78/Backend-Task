@@ -1,4 +1,4 @@
-# School Management API
+# Restaurant Management API
 
 This is the backend API for the **Restaurant Management**. It provides endpoints for managing Restaurant-Management-related data such as restaurants (used as sample data), users, and other resources.
 
