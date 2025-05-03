@@ -36,7 +36,7 @@ GET /api/restaurants?page=2&limit=5
       "rating": 4.5
     },
   ]
-}
+}```
 
 📂 Folder Structure:
 
