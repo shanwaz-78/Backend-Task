@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createDBConnection = void 0;
+exports.createDBConnection = createDBConnection;
 const mongoose_1 = require("mongoose");
 async function createDBConnection(MONGO_URI) {
     if (!MONGO_URI) {
@@ -16,4 +16,3 @@ async function createDBConnection(MONGO_URI) {
         throw error;
     }
 }
-exports.createDBConnection = createDBConnection;
