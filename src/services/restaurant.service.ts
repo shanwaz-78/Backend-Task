@@ -5,10 +5,12 @@ import { parser } from "stream-json";
 import { streamArray } from "stream-json/streamers/StreamArray";
 import { RestaurantModel } from "../model/Restaurant.model";
 import { PaginationTypes } from "../types/restauranst.types";
+import { dirname } from "path";
 
 export const getAllrestaurantService = async (queryObj: PaginationTypes) => {
   const { page = 1, limit = 10 } = queryObj;
   const skip = (page - 1) * limit;
+
   const jsonFilePath = path.join(__dirname, "../../restaurants.json");
 
   try {
